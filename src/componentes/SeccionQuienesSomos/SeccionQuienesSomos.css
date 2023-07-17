@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: flex-start;
     padding-top: 50px;
+    height: 1000px;
+    width: 80%;
+    margin: 5% 10%;
+    background-color: var(--color-2-1);
 }
 
 .section-nosotros-titulo {
@@ -13,7 +17,7 @@
     margin: 50px 10%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 
     border-bottom: 2mm ridge var(--azul-4);
@@ -40,12 +44,12 @@
     transition-timing-function: linear;
 }
 
-.section-nosotros-descripcion img:hover{
+/* .section-nosotros-descripcion img:hover{
     -moz-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
-}
+} */
 
 .section-nosotros-descripcion h4 {
     display: flex;

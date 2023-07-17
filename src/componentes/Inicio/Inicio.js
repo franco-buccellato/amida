@@ -17,7 +17,7 @@ function Inicio() {
                 />
                 <Carousel.Caption className="carousel-caption-3">
                     <div className="card-marketing-carousel-caption">
-                        <h3>NUESTRAS EXPERIENCIAS NO TIENEN LÍMITES.</h3>
+                        <h3>NUESTRAS EXPERIENCIAS NO TIENEN LÍMITES</h3>
                         <p>Amida</p>
                     </div>
                 </Carousel.Caption>
@@ -30,7 +30,7 @@ function Inicio() {
                 />
                 <Carousel.Caption className="carousel-caption-3">
                     <div className="card-marketing-carousel-caption">
-                        <h3>EVENTOS CORPORATIVOS.</h3>
+                        <h3>EVENTOS CORPORATIVOS</h3>
                         <p>Amida</p>
                     </div>
                 </Carousel.Caption>
@@ -43,7 +43,7 @@ function Inicio() {
                 />
                 <Carousel.Caption className="carousel-caption-3">
                     <div className="card-marketing-carousel-caption">
-                        <h3>COMUNICACIÓN INTERNA.</h3>
+                        <h3>COMUNICACIÓN INTERNA</h3>
                         <p>Amida</p>
                     </div>
                 </Carousel.Caption>
@@ -56,7 +56,7 @@ function Inicio() {
                 />
                 <Carousel.Caption className="carousel-caption-3">
                     <div className="card-marketing-carousel-caption">
-                        <h3>TEAM BUILDING.</h3>
+                        <h3>TEAM BUILDING</h3>
                         <p>Amida</p>
                     </div>
                 </Carousel.Caption>
