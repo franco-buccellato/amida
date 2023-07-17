@@ -34,7 +34,7 @@
 }
 .card {
     background-color: transparent !important;
-    /* background-color: var(--gris-1) !important; */
+    /* background-color: var(--color-1) !important; */
     min-height: 500px;
 }
 .card-body {
@@ -66,10 +66,10 @@
     color: var(--azul-4)
 }
 .card-title {
-    color: var(--gris-4)
+    color: var(--color-4)
 }
 
 .card-header {
     background-color: var(--azul-2) !important;
-    color: var(--gris-4) !important;
+    color: var(--color-4) !important;
 }

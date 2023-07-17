@@ -1,5 +1,5 @@
 .footer-distributed{
-	background: var(--gris-1);
+	background: var(--color-1);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -56,7 +56,7 @@
 }
 
 .footer-distributed .footer-company-name{
-	color:  var(--gris-4);
+	color:  var(--color-4);
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -75,7 +75,7 @@
 }
 
 .footer-distributed .footer-center i{
-	background-color:  var(--gris-1);
+	background-color:  var(--color-1);
 	color: var(--blanco);
 	font-size: 25px;
 	width: 38px;

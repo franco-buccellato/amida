@@ -26,14 +26,14 @@
 }
 
 .titulo-servicio-1 {
-    background: var(--gris-2);
+    background: var(--color-2);
     width: 75%;
     text-align: center;
     padding: 1% 0;
     color: var(--azul-1);
 }
 .titulo-servicio-2 {
-    background: var(--gris-2);
+    background: var(--color-2);
     width: 75%;
     text-align: center;
     padding: 1% 0;
@@ -41,7 +41,7 @@
     margin-top: 5%;
 }
 .titulo-servicio-3 {
-    background: var(--gris-2);
+    background: var(--color-2);
     width: 75%;
     text-align: center;
     padding: 1% 0;
@@ -87,7 +87,7 @@
     background-color: var(--azul-4-1);
 }
 .container-servicio-2 {
-    background-color: var(--gris-2-1);
+    background-color: var(--color-2-1);
 }
 .container-servicio-3 {
     background-color: var(--azul-2-1);
@@ -145,7 +145,7 @@
     width: 95%;
     height: 95%;
 
-    background-color: var(--gris-2);
+    background-color: var(--color-2);
 }
 .servicio-2 img {
     width: 100%;

@@ -13,21 +13,12 @@ code {
 }
 
 :root {
-  --azul-1: #003647;
-  --azul-2: #007296;
-  --azul-2-1: #007296b0;
-  --azul-3: #00A6DB;
-  --azul-3-1: #00A6DBB0;
-  --azul-4: #5CBCDB;
-  --azul-4-1: #5cbbdbb0;
-  --gris-1: #414141;
-  --gris-1-1: #414141b0;
-  --gris-2: #8b8b8b;
-  --gris-2-1: #8b8b8bb0;
-  --gris-2-2: #8b8b8b00;
-  --gris-3: #d3d3d3;
-  --gris-4: #f0ecec;
+  --color-1: #B8DFD8;
+  --color-2: #4C4C6D;
+  --color-3: #FFDCB8;
+  --color-4: #FFBCBC;
+  --color-5: #DEEDF0;
+  --color-6: #FEE8D7;
   --blanco: #ffffff;
   --negro: #000000;
-
 }

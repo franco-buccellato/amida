@@ -10,7 +10,7 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background: var(--gris-1);
+    background: var(--color-1);
     overflow: hidden;
     z-index: -10;
 }

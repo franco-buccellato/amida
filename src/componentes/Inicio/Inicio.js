@@ -15,10 +15,10 @@ function Inicio() {
                     src={imagenCarrousel1}
                     alt="First slide"
                 />
-                <Carousel.Caption className="carousel-caption-1">
-                    <div className="card-innovacion-carousel-caption">
-                        <h3>INNOVE EN SU ORGANIZACIÓN INCORPORANDO TECNOLOGÍA EN LAS DISTINTAS ÁREAS.</h3>
-                        <p>Amida es su aliado Tecnológico</p>
+                <Carousel.Caption className="carousel-caption-3">
+                    <div className="card-marketing-carousel-caption">
+                        <h3>NUESTRAS EXPERIENCIAS NO TIENEN LÍMITES.</h3>
+                        <p>Amida</p>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>}
@@ -28,11 +28,11 @@ function Inicio() {
                     src={imagenCarrousel2}
                     alt="Third slide"
                 />
-                <Carousel.Caption className="carousel-caption-2">
-{/*                     <div className="card-desarrollo-carousel-caption">
-                        <h3>DISEÑE Y DESARROLLE UN WEB PARA MOSTRARSE EN ESTA ERA TECNOLÓGICA.</h3>
-                        <p>Amida es su aliado Tecnológico</p>
-                    </div> */}
+                <Carousel.Caption className="carousel-caption-3">
+                    <div className="card-marketing-carousel-caption">
+                        <h3>EVENTOS CORPORATIVOS.</h3>
+                        <p>Amida</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -42,10 +42,10 @@ function Inicio() {
                     alt="Third slide"
                 />
                 <Carousel.Caption className="carousel-caption-3">
-{/*                     <div className="card-marketing-carousel-caption">
-                        <h3>POTENCIE SUS REDES SOCIALES, AMPLÍE SU ALCANCE Y LOGRE CAPTAR NUEVOS CLIENTES.</h3>
-                        <p>Amida es su aliado Tecnológico</p>
-                    </div> */}
+                    <div className="card-marketing-carousel-caption">
+                        <h3>COMUNICACIÓN INTERNA.</h3>
+                        <p>Amida</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -54,11 +54,11 @@ function Inicio() {
                     src={imagenCarrousel4}
                     alt="Third slide"
                 />
-                <Carousel.Caption className="carousel-caption-4">
-{/*                     <div className="card-rpa-carousel-caption">
-                        <h3>INCORPORE TECNOLOGÍA EN SUS PROCESOS DIARIOS LOGRANDO OPTIMIZAR ASÍ SUS TIEMPOS.</h3>
-                        <p>Amida es su aliado Tecnológico</p>
-                    </div> */}
+                <Carousel.Caption className="carousel-caption-3">
+                    <div className="card-marketing-carousel-caption">
+                        <h3>TEAM BUILDING.</h3>
+                        <p>Amida</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

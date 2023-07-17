@@ -1,5 +1,5 @@
 .navBar {
-    background-color: #B8DFD8;
+    background-color: var(--color-1);
 }
 
 .container-nav {
@@ -8,16 +8,16 @@
 }
 
 .navBarBrand {
-    color: #000000 !important;
+    color: var(--negro) !important;
 }
 
 .navLink {
-    color: #4C4C6D !important;
+    color: var(--color-2) !important;
     font-weight: bold !important;
 }
 
 .navLink:hover {
-    color: #FFF !important;
+    color: var(--blanco) !important;
 }
 
 .logo-inicial {

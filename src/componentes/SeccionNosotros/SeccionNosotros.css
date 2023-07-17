@@ -55,7 +55,7 @@
     width: 90%;
     margin: 0 5%;
     font-weight: 500;
-    color: var(--gris-3);
+    color: var(--color-3);
 }
 
 
@@ -101,7 +101,7 @@
 }
 
 .section-nosotros-card-1 h5, .section-nosotros-card-2 h5 {
-    color: var(--gris-4);
+    color: var(--color-4);
 }
 .section-nosotros-card-1 h6, .section-nosotros-card-2 h6 {
     color: var(--azul-4);
@@ -117,8 +117,8 @@
     width: 60%;
     margin-top: -55px;
     margin-left: -20%;
-    background: var(--gris-2);
-    filter: drop-shadow(0 0 0.75rem var(--gris-2));
+    background: var(--color-2);
+    filter: drop-shadow(0 0 0.75rem var(--color-2));
     color: var(--azul-1);
     font-size: calc(0.775rem + .5vw);
     font-weight: 500;
@@ -134,8 +134,8 @@
     width: 60%;
     margin-top: -7%;
     margin-right: -20%;
-    background: var(--gris-2);
-    filter: drop-shadow(0 0 0.75rem var(--gris-2));
+    background: var(--color-2);
+    filter: drop-shadow(0 0 0.75rem var(--color-2));
     color: var(--azul-1);
     font-size: calc(0.775rem + .5vw);
     font-weight: 500;
