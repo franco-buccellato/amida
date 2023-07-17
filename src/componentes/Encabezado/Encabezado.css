@@ -1,0 +1,43 @@
+.navBar {
+    background-color: #B8DFD8;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBarBrand {
+    color: #000000 !important;
+}
+
+.navLink {
+    color: #4C4C6D !important;
+    font-weight: bold !important;
+}
+
+.navLink:hover {
+    color: #FFF !important;
+}
+
+.logo-inicial {
+    animation: zoom-entrada 8s backwards;
+    margin-bottom: 2%;
+}
+
+@keyframes zoom-entrada {
+    0% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes zoom-salida {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}

@@ -12,29 +12,6 @@ code {
   font-family: "Raleway", sans-serif;
 }
 
-.navBar {
-  background-color: #B8DFD8;
-}
-
-.container-nav {
-  display: flex;
-  flex-direction: column;
-}
-
-.navBarBrand {
-  color: #000000 !important;
-}
-
-.navLink {
-  color: #4C4C6D !important;
-  font-weight: bold !important;
-}
-
-.navLink:hover {
-  color: #FFDCB8 !important;
-}
-
-
 :root {
   --azul-1: #003647;
   --azul-2: #007296;

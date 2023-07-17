@@ -1,9 +1,9 @@
+import "./Encabezado.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import logoInicial from '../../imagenes/isologotipo.png'
-import logoInicial2 from '../../imagenes/isologotipo2.png'
 import logoModificado from '../../imagenes/isotipo.png'
 
 function Encabezado() {
@@ -12,7 +12,7 @@ function Encabezado() {
     const ModifyNavBar = () => {
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (100 > currentScrollPos) {
+            if (150 > currentScrollPos) {
                 document.getElementById('container-nav-modify').style.display = 'flex';
                 document.getElementById('container-nav-modify').style.flexDirection = 'column';
                 document.getElementById('logo-navBar').src = logoInicial;
@@ -35,7 +35,7 @@ function Encabezado() {
                         src={logoInicial}
                         /* width="50" */
                         /* height="50" */
-                        className="d-inline-block align-center"
+                        className="d-inline-block align-center logo-inicial"
                         id='logo-navBar'
                     />{' '}
                 </Navbar.Brand>

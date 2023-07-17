@@ -16,10 +16,10 @@ function Inicio() {
                     alt="First slide"
                 />
                 <Carousel.Caption className="carousel-caption-1">
-{/*                     <div className="card-innovacion-carousel-caption">
+                    <div className="card-innovacion-carousel-caption">
                         <h3>INNOVE EN SU ORGANIZACIÓN INCORPORANDO TECNOLOGÍA EN LAS DISTINTAS ÁREAS.</h3>
                         <p>Amida es su aliado Tecnológico</p>
-                    </div> */}
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>}
             <Carousel.Item>
