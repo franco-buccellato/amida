@@ -7,14 +7,10 @@ import SeccionComoTrabajamos from './componentes/SeccionComoTrabajamos/SeccionCo
 import SeccionClientes from './componentes/SeccionClientes/SeccionClientes';
 import SeccionContacto from './componentes/SeccionContacto/SeccionContacto'; */
 import Background from './componentes/Background/Background';
-/* import Footer from './componentes/Footer/Footer'; */
-/* import Desarrollo from './componentes/Desarrollo/Desarrollo';
- */
+import Footer from './componentes/Footer/Footer';
 function App() {
   return (
-    <div id='inicio'>
-{/*       <Desarrollo/> */}
-      
+    <div id='inicio'>      
       <Encabezado/> 
       <Inicio/>
       <SeccionQuienesSomos/>
@@ -23,8 +19,7 @@ function App() {
       <SeccionClientes/>
       <SeccionContacto/> */}
       <Background/>
-      {/* <Footer/> */}
-      
+      <Footer/>
     </div>
   );
 }
