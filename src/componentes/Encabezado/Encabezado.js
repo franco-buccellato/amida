@@ -45,8 +45,8 @@ function Encabezado() {
                         <Nav.Link className='navLink' href="#quienes-somos">Quiénes Somos</Nav.Link>
                         <Nav.Link className='navLink' href="#que-hacemos">Que Hacemos</Nav.Link>
                         <Nav.Link className='navLink' href="#contactanos">Contactanos</Nav.Link>
-                        <Nav.Link className='navLink' href="#clientes">Clientes</Nav.Link>
-                        <Nav.Link className='navLink' href="#proveedores">Proveedores</Nav.Link>
+                        {/* <Nav.Link className='navLink' href="#clientes">Clientes</Nav.Link> */}
+                        {/* <Nav.Link className='navLink' href="#proveedores">Proveedores</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

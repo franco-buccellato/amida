@@ -8,8 +8,23 @@
     height: 100%;
 }
 
+.section-contactanos-titulo {
+    height: 100px;
+    color: var(--color-2);
+    width: 80%;
+    margin: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-.container-contacto {
+}
+.section-contactanos-titulo h2 {
+    font-weight: 700;
+}
+
+
+.container-contacto-cliente {
 	width: 80%;
 	font: bold 16px;
 	display: flex;
@@ -22,18 +37,19 @@
 	width: 60%;
 }
 
-.container-contacto-logo {
+
+.container-contacto-cliente-logo {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container-contacto-logo img{
+.container-contacto-cliente-logo img{
     max-width: 70%;
 }
 
 .form-label {
-    color: var(--azul-4);
+    color: var(--color-2);
 }
 
 .captcha {

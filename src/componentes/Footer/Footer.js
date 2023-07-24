@@ -1,5 +1,4 @@
 import "./Footer.css";
-import logoAmida from '../../imagenes/isotipo.png'
 
 function Footer() {
     return (
@@ -10,6 +9,7 @@ function Footer() {
                 </div>
                 <div className="nombre-footer">
                     <h6>Dirección</h6>
+                    <span>Buenos Aires - Argentina</span>
                 </div>
             </div>
             <div className="footer-center">
@@ -18,6 +18,7 @@ function Footer() {
                 </div>
                 <div className="nombre-footer">
                     <h6>Teléfono</h6>
+                    <span>11 2233-4455</span>
                 </div>
             </div>
             <div className="footer-right">
@@ -26,6 +27,7 @@ function Footer() {
                 </div>
                 <div className="nombre-footer">
                     <h6>Email</h6>
+                    <span>info@amidagroup.com.ar</span>
                 </div>
             </div>
         </footer>

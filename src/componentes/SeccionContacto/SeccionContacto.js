@@ -1,10 +1,11 @@
 import "./SeccionContacto.css";
-import logoAmida from '../../imagenes/logotipo-amida.png'
+import logoAmida from '../../imagenes/isologotipo.png'
 import emailjs from "@emailjs/browser";
 import ApiKey from '../ApiKey';
 import React, { useRef } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
 
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -37,12 +38,28 @@ function SeccionContacto() {
             document.getElementById("consulta").value = '';
     };
 
+    const handleSelect = (eventKey) => {
+        alert(`selected ${eventKey}`);
+    };
+
     return (
-        <section className="section-contacto" id="contacto">
-            <div className="section-servicio-titulo">
+        <section className="section-contacto" id="contactanos">
+            <div className="section-contactanos-titulo">
                 <h2 className="display-6">CONTACTO</h2>
             </div>
-            <div className="container-contacto">
+{/*             <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
+                <Nav.Item>
+                    <Nav.Link eventKey="1">
+                    Cliente
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link eventKey="2" title="Item">
+                    Proveedor
+                    </Nav.Link>
+                </Nav.Item>
+            </Nav> */}
+            <div className="container-contacto-cliente" id="from-cliente">
                 <Form ref={form} onSubmit={sendEmail} className="form-contacto">
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Ingrese su nombre:</Form.Label>
@@ -62,9 +79,9 @@ function SeccionContacto() {
                     <ReCAPTCHA className="captcha"
                         sitekey="6Ld61E4mAAAAAAGw68YoZayXagefAZsS_gq_STk4"
                         onChange={onChange}
-                    />,
+                    />
                 </Form>
-                <div className="container-contacto-logo">
+                <div className="container-contacto-cliente-logo">
                     <img src={logoAmida}></img>
                 </div>
             </div>
