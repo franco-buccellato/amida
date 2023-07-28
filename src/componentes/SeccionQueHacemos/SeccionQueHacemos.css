@@ -22,6 +22,9 @@
 .section-como-trabajamos-titulo h2 {
     font-weight: 700;
 }
+.section-como-trabajamos h6 {
+    font-weight: 700;
+}
 
 .titulo-como-trabajamos-1 {
     background-color: transparent !important;
@@ -38,28 +41,19 @@
     color: var(--color-1);
     margin-top: 5%;
 }
-.titulo-como-trabajamos-3 {
-    background: var(--color-2);
-    width: 75%;
-    text-align: center;
-    /* padding: 1% 0; */
-    color: var(--color-1);
-    margin-top: 5%;
-}
 
 .como-trabajamos-container-1-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    flex-wrap: wrap;
 }
 .como-trabajamos-container-1-2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
-    flex-wrap: wrap;
+    height: 700px;
 }
 .como-trabajamos-container-2 {
     display: flex;
@@ -68,30 +62,19 @@
     width: 100%;
     flex-wrap: wrap;
 }
-.como-trabajamos-container-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
 
-.container-como-trabajamos-1, .container-como-trabajamos-2, .container-como-trabajamos-3 {
+.container-como-trabajamos-1, .container-como-trabajamos-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 45%;
-    min-width: 300px;
 }
 
 .container-como-trabajamos-1 {
     background-color: var(--color-2-1);
 }
 .container-como-trabajamos-2 {
-    background-color: var(--color-2-1);
-}
-.container-como-trabajamos-3 {
     background-color: var(--color-2-1);
 }
 
@@ -102,37 +85,53 @@
     align-items: center;
     width: 95%;
     height: 95%;
-    min-height: 250px;
+    /* min-height: 40vw; */
     background-color: var(--color-4);
 }
 
+.como-trabajamos-1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 700px;
+}
+
+.como-trabajamos-2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 700px;
+}
+
 .como-trabajamos-1 img {
-    width: 100%;
+    margin: 0 15%;
+    width: 70%;
     cursor: pointer;
 }
-.como-trabajamos-1:hover img {
+
+.como-trabajamos-1:hover .como-trabajamos-1-1 {
     visibility: hidden;
     display: none;
 }
 
-.descripcion-1, .descripcion-2, .descripcion-3 {
+.descripcion-1-lista, .descripcion-2-lista {
     visibility: hidden;
     display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items:flex-start;
     width: 90%;
-    height: 90%;
+    /* height: 90%; */
 }
-.como-trabajamos-1:hover .descripcion-1 {
+.como-trabajamos-1:hover .descripcion-1-lista {
     visibility: visible;
     display: flex;
 }
-.como-trabajamos-2:hover .descripcion-2 {
-    visibility: visible;
-    display: flex;
-}
-.como-trabajamos-3:hover .descripcion-3 {
+.como-trabajamos-2:hover .descripcion-2-lista {
     visibility: visible;
     display: flex;
 }
@@ -144,50 +143,38 @@
     align-items: center;
     width: 95%;
     height: 95%;
-    min-height: 250px;
+    /* min-height: 40vw; */
     background-color: var(--color-5);
 }
 .como-trabajamos-2 img {
-    width: 100%;
+    width: 70%;
     cursor: pointer;
 }
-.como-trabajamos-2:hover img {
+
+.como-trabajamos-2:hover .como-trabajamos-2-1 {
     visibility: hidden;
     display: none;
 }
 
-.como-trabajamos-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 95%;
-    height: 95%;
-    min-height: 250px;
-    background-color: var(--color-2);
-}
-.como-trabajamos-3 img {
-    width: 100%;
-    cursor: pointer;
-}
-.como-trabajamos-3:hover img {
-    visibility: hidden;
-    display: none;
+.linea-1 {
+    list-style: none;
+    text-align: initial;
 }
 
-.encabezado-como-trabajamos-1, .encabezado-como-trabajamos-2, .encabezado-como-trabajamos-3 {
-    font-size: calc(0.775rem + .5vw);
+.encabezado-como-trabajamos-1, .encabezado-como-trabajamos-2 {
+    font-size: calc(0.775rem + .9vw);
     width: 100%;
     text-align: center;
     padding-top: 5%;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 700;
 }
 
 .como-trabajamos-descripcion {
     /* font-size: calc(0.675rem + .5vh); */
-    font-size: 120%;
+    /* font-size: 120%; */
     font-weight: 500;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 1600px) {
@@ -209,48 +196,4 @@
     .como-trabajamos-descripcion {
         font-size: 80%;
     }
-}
-
-.accordion {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background: var(--color-2-1);
-    background-color: transparent !important;
-}
-.accordion-item {
-    width: 80%;
-    margin: 0 10%;
-    border-color: var(--color-4) !important;
-    /* border-radius: .375rem; */
-    background-color: transparent !important;
-}
-.accordion-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent !important;
-    width: 100%;
-    text-align: center;
-    padding: 1% 0;
-    color: var(--color-4);
-    border-color: var(--color-1) !important;
-}
-.accordion-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent !important;
-    width: 95%;
-    padding: 0 2.5%;
-    text-align: center;
-    padding: 1% 0;
-    color: var(--color-4);
-    border-color: var(--color-1) !important;
-}
-.accordion-collapse {
-    background-color: transparent !important;
-}
-.accordion-body {
-    background-color: transparent !important;
 }

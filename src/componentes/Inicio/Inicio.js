@@ -43,7 +43,7 @@ function Inicio() {
                 />
                 <Carousel.Caption className="carousel-caption-3">
                     <div className="card-marketing-carousel-caption">
-                        <h3>Nos dedicamos a ofrecer soluciones integrales y eficientes para todas tus necesidades de viajes corporativos.</h3>
+                        <h3>Planificamos y gestionamos cada detalle de tus viajes, desde la organización de vuelos y alojamiento hasta la coordinación de traslados y actividades en el destino.</h3>
                         <p>“Destinos excepcionales, eventos inolvidables”</p>
                     </div>
                 </Carousel.Caption>
