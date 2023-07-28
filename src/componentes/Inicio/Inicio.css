@@ -28,13 +28,13 @@
 
 /* CAROUSEL 1 */
 .carousel-caption-1 {
-    width: 100%;
+    /* width: 100%; */
 }
 .carousel-caption-1 .card-marketing-carousel-caption {
     display: flex;
     flex-direction: column;
-    margin-left: 35%;
-    width: 40%;
+    /* margin-left: 35%; */
+    width: 100%;
     height: 100%;
     margin-top: -50vw;
     background: var(--color-2-1);
