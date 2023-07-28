@@ -16,14 +16,9 @@ function SeccionQueHacemos() {
                     <div className="como-trabajamos-1">
                         <img src={queHacemos1} alt="img-web-1"></img>
                         <div className="descripcion-1">
-                            <h6 className="encabezado-como-trabajamos-1">Relevamiento</h6>
+                            <h6 className="encabezado-como-trabajamos-1">Eventos Corporativos</h6>
                             <span className="como-trabajamos-descripcion">
-                                Nuestro primer paso es:<br></br>
-                                - Conocernos.<br></br>
-                                - Ver que es lo que le gusta al cliente.<br></br>
-                                - Identificar cuál es su rubro.<br></br>
-                                - Interpretar y entender qué quieren mostrar en la web.<br></br>
-                                - Identificar a que publico desea apuntar.
+                                Descubrí cómo nuestros eventos corporativos internos pueden fortalecer los lazos entre los miembros de tu empresa, aumentar la productividad y hacer que todos se sientan parte de una comunidad sólida y exitosa.
                             </span>
                         </div>
                     </div>
@@ -32,13 +27,10 @@ function SeccionQueHacemos() {
                     <div className="como-trabajamos-2">
                         <img src={queHacemos2} alt="img-web-2"></img>
                         <div className="descripcion-2">
-                            <h6 className="encabezado-como-trabajamos-2">Planificación</h6>
+                            <h6 className="encabezado-como-trabajamos-2">Viajes Corporativos</h6>
                             <span className="como-trabajamos-descripcion">
-                                Nuestro segundo paso es:<br></br>
-                                - Teniendo toda la información relevada planificar el posible contenido de la web.<br></br>
-                                - Armar la estructura de la página.<br></br>
-                                - Estructurar las secciones y contenido.<br></br>
-                                - Comunicación con el cliente para su aprobación.
+                                Nos dedicamos a planificar y gestionar cada detalle de tus viajes, desde la organización de vuelos y alojamiento hasta la coordinación de traslados y actividades durante el viaje.<br></br>
+                                Nos destacamos por proporcionar un servicio personalizado que se adapta a las preferencias y presupuestos de tu empresa. Ya sea que necesites asistir a una conferencia o seminario en el extranjero, una reunión ejecutiva o un viaje de incentivo para tu equipo, estamos para hacer que todo sea fácil y sin complicaciones.
                             </span>
                         </div>
                     </div>
@@ -49,13 +41,9 @@ function SeccionQueHacemos() {
                     <div className="como-trabajamos-1">
                         <img src={queHacemos3} alt="img-web-4"></img>
                         <div className="descripcion-1">
-                            <h6 className="encabezado-como-trabajamos-1">Desarrollo</h6>
+                            <h6 className="encabezado-como-trabajamos-1">Eventos Corporativos</h6>
                             <span className="como-trabajamos-descripcion">
-                                Nuestro cuarto paso es:<br></br>
-                                - Selecionar las tecnologías a utilizar.<br></br>
-                                - Comenzar con el desarrollo de la web.<br></br>
-                                - Interacción constante con el cliente para ir mostrando los avances.<br></br>
-                                - Posibles cambios o correcciones en esta etapa.
+                                Descubrí cómo nuestros eventos corporativos internos pueden fortalecer los lazos entre los miembros de tu empresa, aumentar la productividad y hacer que todos se sientan parte de una comunidad sólida y exitosa.
                             </span>
                         </div>
                     </div>
@@ -64,12 +52,10 @@ function SeccionQueHacemos() {
                     <div className="como-trabajamos-2">
                         <img src={queHacemos4} alt="img-web-5"></img>
                         <div className="descripcion-2">
-                            <h6 className="encabezado-como-trabajamos-2">Publicación</h6>
+                            <h6 className="encabezado-como-trabajamos-2">Viajes Corporativos</h6>
                             <span className="como-trabajamos-descripcion">
-                                Nuestro quinto paso es:<br></br>
-                                - Selecionar el dominio y hosting.<br></br>
-                                - Configuración del Hosting.<br></br>
-                                - Subir y publicar la página web.
+                                Nos dedicamos a planificar y gestionar cada detalle de tus viajes, desde la organización de vuelos y alojamiento hasta la coordinación de traslados y actividades durante el viaje.<br></br>
+                                Nos destacamos por proporcionar un servicio personalizado que se adapta a las preferencias y presupuestos de tu empresa. Ya sea que necesites asistir a una conferencia o seminario en el extranjero, una reunión ejecutiva o un viaje de incentivo para tu equipo, estamos para hacer que todo sea fácil y sin complicaciones.
                             </span>
                         </div>
                     </div>

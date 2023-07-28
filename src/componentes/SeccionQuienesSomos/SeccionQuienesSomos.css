@@ -5,16 +5,16 @@
     justify-content: flex-start;
     padding-top: 50px;
     height: 1000px;
-    width: 80%;
-    margin: 5% 10%;
+    width: 90%;
+    margin: 5% 5%;
     background-color: var(--color-2-1);
 }
 
 .section-nosotros-titulo {
     height: 100px;
     color: var(--azul-4);
-    width: 80%;
-    margin: 50px 10%;
+    width: 90%;
+    margin: 50px 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,16 +27,12 @@
 }
 
 .section-nosotros-descripcion {
-    width: 80%;
-    margin: 0    10%;
+    width: 90%;
+    margin: 0 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: baseline;
-}
-
-.section-nosotros-descripcion:hover {
-    width: 80%;
 }
 
 .section-nosotros-descripcion img {
@@ -44,14 +40,7 @@
     transition-timing-function: linear;
 }
 
-/* .section-nosotros-descripcion img:hover{
-    -moz-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-} */
-
-.section-nosotros-descripcion h4 {
+.section-nosotros-descripcion h6 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,6 +50,29 @@
     font-weight: 500;
     color: var(--color-3);
 }
+
+.section-nosotros-descripcion-span {
+    width: 90%;
+    margin: 5% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.section-nosotros-descripcion-span span {
+    font-size: calc(0.775rem + 1.2vw);;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    width: 90%;
+    margin: 0 5%;
+    font-weight: 500;
+    color: var(--color-3);
+}
+
+
 
 
 .section-nosotros-container-cards-1 {
