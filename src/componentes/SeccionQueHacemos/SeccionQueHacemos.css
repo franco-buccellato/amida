@@ -81,7 +81,7 @@
 .como-trabajamos-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 95%;
     height: 95%;
@@ -92,19 +92,19 @@
 .como-trabajamos-1-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 80%;
-    height: 700px;
+    height: 600px;
 }
 
 .como-trabajamos-2-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 80%;
-    height: 700px;
+    height: 600px;
 }
 
 .como-trabajamos-1 img {
@@ -130,16 +130,31 @@
 .como-trabajamos-1:hover .descripcion-1-lista {
     visibility: visible;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 .como-trabajamos-2:hover .descripcion-2-lista {
     visibility: visible;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.lista-1, .lista-2 {
+    /* font-size: calc(0.675rem + .5vh); */
+    /* font-size: 120%; */
+    font-weight: 500;
+    margin-bottom: 100px;
 }
 
 .como-trabajamos-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 95%;
     height: 95%;
