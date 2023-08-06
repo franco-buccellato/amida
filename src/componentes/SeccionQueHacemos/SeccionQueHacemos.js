@@ -23,14 +23,14 @@ function SeccionQueHacemos() {
                         </div>
                         <div className="descripcion-1-lista">
                             <ul className="lista-1">
-                                <li className="linea-1">Actividades de aventura y/o relax.</li>
-                                <li className="linea-1">Almuerzos ejecutivos.</li>
-                                <li className="linea-1">Días de campo.</li>
-                                <li className="linea-1">Family Day.</li>
-                                <li className="linea-1">After Office.</li>
-                                <li className="linea-1">Salas de escape.</li>
-                                <li className="linea-1">Coffe break.</li>
-                                <li className="linea-1">Team building.</li>
+                                <li className="linea-1">Actividades de aventura y/o relax</li>
+                                <li className="linea-1">Almuerzos ejecutivos</li>
+                                <li className="linea-1">Días de campo</li>
+                                <li className="linea-1">Family Day</li>
+                                <li className="linea-1">After Office</li>
+                                <li className="linea-1">Salas de escape</li>
+                                <li className="linea-1">Coffe break</li>
+                                <li className="linea-1">Team building</li>
                             </ul>
                         </div>
                     </div>
@@ -42,18 +42,21 @@ function SeccionQueHacemos() {
                             <img src={queHacemos2} alt="img-web-2"></img>
                             <div className="descripcion-2">
                                 <span className="como-trabajamos-descripcion">
-                                    Nos dedicamos a planificar y gestionar cada detalle de tus viajes, desde la organización de vuelos y alojamiento hasta la coordinación de traslados y actividades durante el viaje.<br></br>
-                                    Nos destacamos por proporcionar un servicio personalizado que se adapta a las preferencias y presupuestos de tu empresa. Ya sea que necesites asistir a una conferencia o seminario en el extranjero, una reunión ejecutiva o un viaje de incentivo para tu equipo, estamos para hacer que todo sea fácil y sin complicaciones.
+                                    Nos dedicamos a planificar y gestionar cada detalle de tus viajes, desde la organización de vuelos y alojamiento hasta la coordinación de traslados y actividades durante el viaje.{/* <br></br>
+                                    Nos destacamos por proporcionar un servicio personalizado que se adapta a las preferencias y presupuestos de tu empresa. Ya sea que necesites asistir a una conferencia o seminario en el extranjero, una reunión ejecutiva o un viaje de incentivo para tu equipo, estamos para hacer que todo sea fácil y sin complicaciones. */}
                                 </span>
                             </div>
                         </div>
                         <div className="descripcion-2-lista">
                             <ul className="lista-2">
-                                <li className="linea-2">Traslados.</li>
-                                <li className="linea-2">Alojamientos.</li>
-                                <li className="linea-2">Gastronomia.</li>
-                                <li className="linea-2">Excursiones y experiencias en destino.</li>
+                                <li className="linea-2">Traslados</li>
+                                <li className="linea-2">Alojamientos</li>
+                                <li className="linea-2">Gastronomia</li>
+                                <li className="linea-2">Excursiones y experiencias en destino</li>
                             </ul>
+{/*                             <span className="como-trabajamos-descripcion">
+                                Nos destacamos por proporcionar un servicio personalizado que se adapta a las preferencias y presupuestos de tu empresa. Ya sea que necesites asistir a una conferencia o seminario en el extranjero, una reunión ejecutiva o un viaje de incentivo para tu equipo, estamos para hacer que todo sea fácil y sin complicaciones.
+                            </span> */}
                         </div>
                     </div>
                 </div>
