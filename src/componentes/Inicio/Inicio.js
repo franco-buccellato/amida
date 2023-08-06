@@ -1,10 +1,10 @@
 import "./Inicio.css";
 import Carousel from "react-bootstrap/Carousel";
 
-import imagenCarrousel1 from '../../imagenes/fondo-carrousel2 (6).png';
-import imagenCarrousel2 from '../../imagenes/fondo-carrousel2 (8).png';
+import imagenCarrousel1 from '../../imagenes/fondo-carrousel3 (2).png';
+import imagenCarrousel2 from '../../imagenes/fondo-carrousel3 (4).png';
 import imagenCarrousel3 from '../../imagenes/fondo-carrousel2 (2).png';
-import imagenCarrousel4 from '../../imagenes/fondo-carrousel-4.png';
+/* import imagenCarrousel4 from '../../imagenes/fondo-carrousel-4.png'; */
 
 function Inicio() {
     return (
