@@ -5,7 +5,7 @@
     justify-content: flex-start;
     margin-bottom: 100px;
     padding-top: 50px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .section-como-trabajamos-titulo {
@@ -53,7 +53,7 @@
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
 }
 .como-trabajamos-container-2 {
     display: flex;
@@ -83,9 +83,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 95%;
-    height: 95%;
-    /* min-height: 40vw; */
+    padding: 5%;
+    width: 100%;
+    height: 100%;
     background-color: var(--color-4);
 }
 
@@ -95,7 +95,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 80%;
-    height: 600px;
+    /* height: 35vw; */
 }
 
 .como-trabajamos-2-1 {
@@ -104,7 +104,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 80%;
-    height: 600px;
+    /* height: 35vw; */
 }
 
 .como-trabajamos-1 img {
@@ -122,16 +122,19 @@
     visibility: hidden;
     display: none;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
-    width: 90%;
-    /* height: 90%; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .como-trabajamos-1:hover .descripcion-1-lista {
     visibility: visible;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 80%;
 }
@@ -139,16 +142,21 @@
     visibility: visible;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 80%;
 }
 
 .lista-1, .lista-2 {
-    /* font-size: calc(0.675rem + .5vh); */
-    /* font-size: 120%; */
     font-weight: 500;
     margin-bottom: 100px;
+
+    padding-left: 0 !important;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .como-trabajamos-2 {
@@ -156,8 +164,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 95%;
-    height: 95%;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
     /* min-height: 40vw; */
     background-color: var(--color-5);
 }
@@ -174,10 +183,34 @@
 .linea-1 {
     list-style: none;
     text-align: initial;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    background-color: var(--color-4-1);
+    border: solid var(--color-4-1) 2px;
+}
+.linea-2 {
+    list-style: none;
+    text-align: initial;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    background-color: var(--color-1-1);
+    border: solid var(--color-1-1) 2px;
 }
 
 .encabezado-como-trabajamos-1, .encabezado-como-trabajamos-2 {
-    font-size: calc(0.775rem + .9vw);
+    font-size: calc(0.475rem + .9vw);
     width: 100%;
     text-align: center;
     padding-top: 5%;
@@ -186,29 +219,29 @@
 }
 
 .como-trabajamos-descripcion {
-    /* font-size: calc(0.675rem + .5vh); */
-    /* font-size: 120%; */
+    font-size: calc(0.475rem + .5vw);
     font-weight: 500;
     margin-bottom: 100px;
 }
-
+/* 
 @media (max-width: 1600px) {
-    .como-trabajamos-descripcion {
-        font-size: 100%;
-    }
-}
-
-@media (max-width: 1400px) {
     .como-trabajamos-descripcion {
         font-size: 90%;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+    .como-trabajamos-descripcion {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1250px) {
     .como-trabajamos-container {
         flex-wrap: wrap;
     }
     .como-trabajamos-descripcion {
-        font-size: 80%;
+        font-size: 60%;
     }
 }
+ */

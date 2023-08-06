@@ -1,6 +1,6 @@
 import "./SeccionQueHacemos.css";
-import queHacemos1 from '../../imagenes/relevamiento-web.png';
-import queHacemos2 from '../../imagenes/planificacion-web.png';
+import queHacemos1 from '../../imagenes/34.png';
+import queHacemos2 from '../../imagenes/33.png';
 
 function SeccionQueHacemos() {
     
@@ -23,14 +23,14 @@ function SeccionQueHacemos() {
                         </div>
                         <div className="descripcion-1-lista">
                             <ul className="lista-1">
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Actividades de aventura y/o relax.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Almuerzos ejecutivos.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Días de campo.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Family Day.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>After Office.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Salas de escape.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Coffe break.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Team building.</li>
+                                <li className="linea-1">Actividades de aventura y/o relax.</li>
+                                <li className="linea-1">Almuerzos ejecutivos.</li>
+                                <li className="linea-1">Días de campo.</li>
+                                <li className="linea-1">Family Day.</li>
+                                <li className="linea-1">After Office.</li>
+                                <li className="linea-1">Salas de escape.</li>
+                                <li className="linea-1">Coffe break.</li>
+                                <li className="linea-1">Team building.</li>
                             </ul>
                         </div>
                     </div>
@@ -49,10 +49,10 @@ function SeccionQueHacemos() {
                         </div>
                         <div className="descripcion-2-lista">
                             <ul className="lista-2">
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Traslados.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Alojamientos.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Gastronomia.</li>
-                                <li className="linea-1"><ion-icon name="arrow-forward-outline"></ion-icon>Excursiones y experiencias en destino.</li>
+                                <li className="linea-2">Traslados.</li>
+                                <li className="linea-2">Alojamientos.</li>
+                                <li className="linea-2">Gastronomia.</li>
+                                <li className="linea-2">Excursiones y experiencias en destino.</li>
                             </ul>
                         </div>
                     </div>
