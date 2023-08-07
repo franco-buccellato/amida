@@ -46,8 +46,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: baseline;
-    width: 90%;
-    margin-left: 10%;
+    width: 100%;
+    /* margin-left: 10%; */
     font-weight: 500;
     color: var(--color-3);
 }
