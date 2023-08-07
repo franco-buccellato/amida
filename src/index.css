@@ -9,10 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(-45deg, var(--color-4), var(--color-3), var(--color-1), var(--color-1));
+  /* background: linear-gradient(-45deg, var(--color-1), var(--color-1-1), var(--color-4), var(--color-6)); */
+  background: linear-gradient(-45deg, var(--color-6), var(--color-5), var(--color-3), var(--blanco));
 	background-size: 400% 400%;
-	-webkit-animation: gradient 10s ease infinite;
-	animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
 }
 
 code {
