@@ -7,7 +7,7 @@ function SeccionQuienesSomos() {
     return (
         <div className="section-nosotros" id="quienes-somos">
             <div className="section-nosotros-titulo">
-                <h2 className="display-6">¿Quienes Somos?</h2>
+                <h2 className="display-6">Nosotros</h2>
             </div>  
             <div className="section-nosotros-descripcion">
                 {/* <img src={logoAmida}></img> */}
