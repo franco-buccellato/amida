@@ -4,7 +4,7 @@ import Inicio from './componentes/Inicio/Inicio';
 import SeccionQuienesSomos from './componentes/SeccionQuienesSomos/SeccionQuienesSomos';
 import SeccionQueHacemos from './componentes/SeccionQueHacemos/SeccionQueHacemos';
 import SeccionContacto from './componentes/SeccionContacto/SeccionContacto';
-import Background from './componentes/Background/Background';
+/* import Background from './componentes/Background/Background'; */
 import Footer from './componentes/Footer/Footer';
 import Copyright from './componentes/Copyright/Copyright';
 
@@ -16,7 +16,7 @@ function App() {
       <SeccionQuienesSomos/>
       <SeccionQueHacemos/>
       <SeccionContacto/>
-      <Background/>
+      {/* <Background/> */}
       <Footer/>
       <Copyright/>
     </div>

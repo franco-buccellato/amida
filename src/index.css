@@ -9,7 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: antiquewhite;
+  background: linear-gradient(-45deg, var(--color-4), var(--color-3), var(--color-1), var(--color-1));
+	background-size: 400% 400%;
+	-webkit-animation: gradient 10s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 code {
@@ -28,4 +31,28 @@ code {
   --color-6: #FEE8D7;
   --blanco: #ffffff;
   --negro: #000000;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
