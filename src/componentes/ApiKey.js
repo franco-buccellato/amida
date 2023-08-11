@@ -1,6 +1,7 @@
 //archivo ApiKey.js
 export default { 
-	USER_ID: 'z0_91vyP6e0Sbwce3', 
+	USER_ID: 'E4ymrFWsKcDLrMT0s', 
 	TEMPLATE_ID: 'template_amida_web',
-	SERVICE_ID: 'service_dpevz75'
+	TEMPLATE_ID_PROVEEDORES: 'template_amida_web_prove',
+	SERVICE_ID: 'amida-group-id'
 }

@@ -152,3 +152,10 @@
     0% {margin-right: -50rem;}
     100% {margin-right: 0;}
 }
+
+@media (max-width: 1000px) {
+    .carousel {
+        padding-top: 80px;
+    }
+    
+}

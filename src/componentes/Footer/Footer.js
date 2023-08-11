@@ -18,7 +18,7 @@ function Footer() {
                 </div>
                 <div className="nombre-footer">
                     <h6>Teléfono</h6>
-                    <span>11 2233-4455</span>
+                    <span>+54 9 11-3126-9739</span>
                 </div>
             </div>
             <div className="footer-right">

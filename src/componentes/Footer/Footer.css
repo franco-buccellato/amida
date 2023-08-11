@@ -148,6 +148,7 @@
 
 	.footer-distributed {
 		font: bold 14px;
+		flex-direction: column;
 	}
 
 	.footer-distributed .footer-left,

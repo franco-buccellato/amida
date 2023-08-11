@@ -56,3 +56,13 @@
     margin-TOP: 10px;
     display: flex;
 }
+
+@media (max-width: 880px) {
+    .container-contacto-cliente-logo {
+        display: none;
+    }
+
+    .container-contacto-cliente {
+        width: 140%;
+    }
+}

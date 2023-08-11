@@ -35,9 +35,17 @@ function Encabezado() {
                         src={logoInicial}
                         /* width="50" */
                         /* height="50" */
-                        className="d-inline-block align-center logo-inicial"
+                        className="logo-inicial"
                         id='logo-navBar'
-                    />{' '}
+                    />
+                    <img
+                        alt=""
+                        src={logoModificado}
+                        /* width="50" */
+                        /* height="50" */
+                        className="logo-responsive"
+                        id='logo-navBar-responsive'
+                    />
                 </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

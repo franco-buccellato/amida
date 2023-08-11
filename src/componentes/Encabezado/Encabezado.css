@@ -22,8 +22,24 @@
 }
 
 .logo-inicial {
+    display: flex !important;
+    visibility: visible !important;
     animation: zoom-entrada 8s backwards;
     margin-bottom: 4%;
+}
+
+.logo-responsive {
+    display: none !important;
+    visibility: hidden !important;
+    margin-bottom: 4%;
+}
+
+.navbar-toggler {
+    color: black !important;
+}
+
+.navbar-toggler-icon {
+    background-color: var(--color-4-1) !important;
 }
 
 @keyframes zoom-entrada {
@@ -40,5 +56,20 @@
     }
     100% {
         transform: scale(0);
+    }
+}
+@media (max-width: 1000px) {
+    .container-nav {
+        flex-direction: row !important;
+    }
+    .logo-inicial {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    .logo-responsive {
+        display: flex !important;
+        visibility: visible !important;
+        margin-bottom: 4%;
     }
 }

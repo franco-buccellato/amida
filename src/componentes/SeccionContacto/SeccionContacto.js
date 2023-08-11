@@ -1,15 +1,17 @@
 import "./SeccionContacto.css";
+import { useState } from "react";
 import logoAmida from '../../imagenes/isologotipo.png'
 import emailjs from "@emailjs/browser";
 import ApiKey from '../ApiKey';
 import React, { useRef } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-
 import ReCAPTCHA from "react-google-recaptcha";
+import ModalMailEnviado from './ModalMailEnviado';
 
 function SeccionContacto() {
+
+    const [modalShow, setModalShow] = React.useState(false);
 
     const onChange = () => {
         console.log('Captcha válido!');
@@ -33,6 +35,7 @@ function SeccionContacto() {
                     console.log(error.text);
                 }
             );
+            setModalShow(true);
             document.getElementById("usuarioNombre").value = '';
             document.getElementById("usuarioMail").value = '';
             document.getElementById("consulta").value = '';
@@ -77,8 +80,12 @@ function SeccionContacto() {
                         Enviar Mail
                     </Button>
                     <ReCAPTCHA className="captcha"
-                        sitekey="6Ld61E4mAAAAAAGw68YoZayXagefAZsS_gq_STk4"
+                        sitekey="6LdQ7JknAAAAAFpPCAxa5t4mMOBBeFYA7-Pd8F-k"
                         onChange={onChange}
+                    />
+                    <ModalMailEnviado
+                        show={modalShow}
+                        onHide={() => setModalShow(false)}
                     />
                 </Form>
                 <div className="container-contacto-cliente-logo">
