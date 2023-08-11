@@ -9,11 +9,13 @@
     width: 90%;
     margin: 5% 5%;
     background-color: var(--color-2-1);
+    color: white;
+    mix-blend-mode: multiply;
 }
 
 .section-nosotros-titulo {
     height: 100px;
-    color: var(--azul-4);
+    color: var(--azul-4) !important;
     width: 90%;
     margin: 50px 5%;
     display: flex;
@@ -49,7 +51,8 @@
     width: 100%;
     /* margin-left: 10%; */
     font-weight: 500;
-    color: var(--blanco);
+    color: #fff;
+    mix-blend-mode: screen;
 }
 
 .section-nosotros-descripcion-span {
