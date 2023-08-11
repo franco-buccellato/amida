@@ -195,6 +195,7 @@
     background-color: var(--color-2-2);
     border: solid var(--color-2) 1px;
     margin-bottom: -1px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .linea-1 ion-icon, .linea-2 ion-icon {
@@ -216,6 +217,7 @@
     background-color: var(--color-1);
     border: solid var(--color-1-2) 1px;
     margin-bottom: -1px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .encabezado-como-trabajamos-1, .encabezado-como-trabajamos-2 {
