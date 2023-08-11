@@ -159,7 +159,7 @@
 }
 
 .display-6-configurado {
-    font-size: calc(0.775rem + 1vw);
+    font-size: calc(0.675rem + 1vw);
     /* animation: text-animation 5s; */
     animation: fadeIn 5s;
 }

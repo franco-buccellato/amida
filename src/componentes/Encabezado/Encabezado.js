@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logoInicial from '../../imagenes/isologotipo.png'
+import logoInicial from '../../imagenes/isologotipo3.png'
 import logoModificado from '../../imagenes/isotipo.png'
 
 function Encabezado() {
