@@ -1,5 +1,8 @@
 import "./SeccionQueHacemos.css";
 import Accordion from 'react-bootstrap/Accordion';
+import iconoEventos from '../../imagenes/icono-eventos-corporativos.png';
+import iconoViajes from '../../imagenes/icono-viajes-corporativos.png';
+
 
 function SeccionQueHacemos() {
     
@@ -10,7 +13,10 @@ function SeccionQueHacemos() {
             </div>
             <Accordion>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header className="accordion-header-1"><h4 className="encabezado-como-trabajamos-2">Eventos Corporativos</h4></Accordion.Header>
+                    <Accordion.Header className="accordion-header-1">
+                        <img className='icono-eventos' alt='icono-eventos' src={iconoEventos}></img>
+                        <h4 className="encabezado-como-trabajamos-2">Eventos Corporativos</h4>
+                    </Accordion.Header>
                     <Accordion.Body>
                         <div className="container-como-trabajamos-1">
                             <div className="como-trabajamos-1">
@@ -36,7 +42,10 @@ function SeccionQueHacemos() {
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header className="accordion-header-2"><h4 className="encabezado-como-trabajamos-2">Viajes Corporativos</h4></Accordion.Header>
+                    <Accordion.Header className="accordion-header-2">
+                        <img className='icono-viajes' alt='icono-viajes' src={iconoViajes}></img>
+                        <h4 className="encabezado-como-trabajamos-2">Viajes Corporativos</h4>
+                        </Accordion.Header>
                     <Accordion.Body>
                         <div className="container-como-trabajamos-2">
                             <div className="como-trabajamos-2">

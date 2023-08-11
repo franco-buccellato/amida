@@ -220,7 +220,8 @@
 
 .encabezado-como-trabajamos-1, .encabezado-como-trabajamos-2 {
     font-size: calc(0.475rem + .9vw);
-    width: 100%;
+    /* width: 100%; */
+    margin-left: 5%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -233,6 +234,12 @@
     font-weight: 500;
     /* margin-bottom: 100px; */
 }
+
+.icono-eventos, .icono-viajes {
+    width: 5%;
+}
+
+
 /* 
 @media (max-width: 1600px) {
     .como-trabajamos-descripcion {
@@ -288,10 +295,8 @@
     justify-content: center !important;
     align-items: center !important;
     background-color: transparent !important;
-    width: 95%;
-    padding: 0 2.5%;
-    text-align: center;
-    padding: 1% 0;
+    width: 95% !important;
+    text-align: center !important;
     color: var(--color-2);
     border-color: var(--color-2-1) !important;
 }
@@ -305,12 +310,6 @@
 
 .accordion-button:not(.collapsed) {
     color: var(--color-2) !important;;
-}
-.accordion-button {
-    color: var(--color-2) !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
 }
 
 /* .accordion-header-1 {
