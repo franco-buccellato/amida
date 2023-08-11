@@ -190,10 +190,10 @@
     /* height: 3vw; */
     /* width: 50%; */
     padding: 20px;
-    margin: 10px;
+    margin: 2%;
     text-align: center;
     background-color: var(--color-2-2);
-    border: solid var(--color-2) 1px;
+    /* border: solid var(--color-2) 1px; */
     margin-bottom: -1px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -212,10 +212,10 @@
     /* height: 3vw; */
     /* width: 50%; */
     padding: 20px;
-    margin: 10px;
+    margin: 2%;
     text-align: center;
     background-color: var(--color-1);
-    border: solid var(--color-1-2) 1px;
+    /* border: solid var(--color-1-2) 1px; */
     margin-bottom: -1px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
 }
