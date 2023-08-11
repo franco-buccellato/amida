@@ -21,14 +21,14 @@ function SeccionQueHacemos() {
                                         </span>
                                     </div>
                                     <ul className="lista-1">
-                                        <li className="linea-1">Actividades de aventura y/o relax</li>
-                                        <li className="linea-1">Almuerzos ejecutivos</li>
-                                        <li className="linea-1">Días de campo</li>
-                                        <li className="linea-1">Family Day</li>
-                                        <li className="linea-1">After Office</li>
-                                        <li className="linea-1">Salas de escape</li>
-                                        <li className="linea-1">Coffe break</li>
-                                        <li className="linea-1">Team building</li>
+                                        <li className="linea-1"><ion-icon size="large" name="sparkles-outline"></ion-icon>Actividades de aventura y/o relax</li>
+                                        <li className="linea-1"><ion-icon size="large" name="restaurant-outline"></ion-icon>Almuerzos ejecutivos</li>
+                                        <li className="linea-1"><ion-icon size="large" name="flower-outline"></ion-icon>Días de campo</li>
+                                        <li className="linea-1"><ion-icon size="large" name="heart-outline"></ion-icon>Family Day</li>
+                                        <li className="linea-1"><ion-icon size="large" name="beer-outline"></ion-icon>After Office</li>
+                                        <li className="linea-1"><ion-icon size="large" name="key-outline"></ion-icon>Salas de escape</li>
+                                        <li className="linea-1"><ion-icon size="large" name="cafe-outline"></ion-icon>Coffe break</li>
+                                        <li className="linea-1"><ion-icon size="large" name="git-pull-request-outline"></ion-icon>Team building</li>
                                     </ul>
                                 </div>
                             </div>
@@ -48,10 +48,10 @@ function SeccionQueHacemos() {
                                         </span>
                                     </div>
                                     <ul className="lista-2">
-                                        <li className="linea-2">Traslados</li>
-                                        <li className="linea-2">Alojamientos</li>
-                                        <li className="linea-2">Gastronomia</li>
-                                        <li className="linea-2">Excursiones y experiencias en destino</li>
+                                        <li className="linea-2"><ion-icon size="large" name="airplane-outline"></ion-icon>Traslados</li>
+                                        <li className="linea-2"><ion-icon size="large" name="bed-outline"></ion-icon>Alojamientos</li>
+                                        <li className="linea-2"><ion-icon size="large" name="restaurant-outline"></ion-icon>Gastronomia</li>
+                                        <li className="linea-2"><ion-icon size="large" name="bicycle-outline"></ion-icon>Excursiones y experiencias en destino</li>
                                     </ul>
                                 </div>
                             </div>
