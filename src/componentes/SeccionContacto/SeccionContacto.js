@@ -30,15 +30,15 @@ function SeccionContacto() {
             ).then(
                 (result) => {
                     console.log(result.text);
+                    setModalShow(true);
+                    document.getElementById("usuarioNombre").value = '';
+                    document.getElementById("usuarioMail").value = '';
+                    document.getElementById("consulta").value = '';
                 },
                 (error) => {
                     console.log(error.text);
                 }
             );
-            setModalShow(true);
-            document.getElementById("usuarioNombre").value = '';
-            document.getElementById("usuarioMail").value = '';
-            document.getElementById("consulta").value = '';
     };
 
     const handleSelect = (eventKey) => {
@@ -80,7 +80,7 @@ function SeccionContacto() {
                         Enviar Mail
                     </Button>
                     <ReCAPTCHA className="captcha"
-                        sitekey="6LdQ7JknAAAAAFpPCAxa5t4mMOBBeFYA7-Pd8F-k"
+                        sitekey="6LcRxJsnAAAAAHC0Ks8fUdL1N4ssa82jpWnIZPpE"
                         onChange={onChange}
                     />
                     <ModalMailEnviado

@@ -1,25 +1,19 @@
 import './App.css';
-import Encabezado from './componentes/Encabezado/Encabezado';
-import Inicio from './componentes/Inicio/Inicio';
-import SeccionQuienesSomos from './componentes/SeccionQuienesSomos/SeccionQuienesSomos';
-import SeccionQueHacemos from './componentes/SeccionQueHacemos/SeccionQueHacemos';
-import SeccionContacto from './componentes/SeccionContacto/SeccionContacto';
-/* import Background from './componentes/Background/Background'; */
-import Footer from './componentes/Footer/Footer';
-import Copyright from './componentes/Copyright/Copyright';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LandingEventos from './componentes/LandingEventos/LandingEventos';
+import LandingViajes from './componentes/LandingViajes/LandingViajes';
+import PaginaPrincipal from './componentes/PaginaPrincipal/PaginaPrincipal';
+
 
 function App() {
   return (
-    <div id='inicio'>      
-      <Encabezado/> 
-      <Inicio/>
-      <SeccionQuienesSomos/>
-      <SeccionQueHacemos/>
-      <SeccionContacto/>
-      {/* <Background/> */}
-      <Footer/>
-      <Copyright/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path = '/' element = {<PaginaPrincipal/>}/>
+        <Route exact path = '/viajes' element = {<LandingViajes/>}/>
+        <Route exact path = '/eventos' element = {<LandingEventos/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
