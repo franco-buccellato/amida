@@ -13,7 +13,7 @@ function PaginaPrincipal() {
                 </img>
                 <Link className="button" to = {'/eventos'}>
                     {/* <button className="boton-eventos"> */}
-                        Eventos Corpotativos
+                        Corporativos
                         <span></span>
                         <span></span>
                         <span></span>
@@ -22,7 +22,7 @@ function PaginaPrincipal() {
                 </Link>
                 <Link className="button" to = {'/eventos'}>
                     {/* <button className="boton-viajes"> */}
-                        Viajes
+                        Turismo Individual
                         <span></span>
                         <span></span>
                         <span></span>
