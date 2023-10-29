@@ -11,6 +11,10 @@
     background-position: center top;
     /* background-size: 100%; */
     z-index: -1000;
+    background: linear-gradient(-75deg, #4C4C6D, #FFDCB8, #DEEDF0, #B8DFD8);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
 }
 
 .boton-eventos {
@@ -144,4 +148,12 @@ a:link, a:visited, a:active {
 }
 .button:hover span{
     animation-play-state: paused;
+}
+
+
+@media (max-width: 500px) {
+    .button{
+        width:80%;
+        height:100px;
+    }
 }
